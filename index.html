@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Banking Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div>
+    <h1>Banking Form</h1>
+    <form>
+      First Name:  <input type="text" name="first_name"/><br><br>
+
+      Middle Initial:  <input type="text" name="middle_initial"/><br><br>
+
+      Last Name:  <input type="text" name="last_name"/><br><br>
+
+      Address:  <input type="text" name="address"/><br><br>
+
+      Occupation:  <input type="text" name="occupation"/><br><br>
+
+      Employer:  <input type="text" name="employer"/><br><br>
+
+      Employer Address:  <input type="text" name="employer_address"/><br><br>
+
+      <select name="select">
+        <option value="commercial">Commercial</option>
+        <option value="real_estate">Real Estate</option>
+        <option value="personal">Personal</option>
+        <option value="mortgage">Mortgage</option>
+      </select><br><br><br><br><br>
+
+      Requested Amount of Loan:  <input type="text" name="requested_amount_of_loan"/><br><br>
+
+      <label for="loan_length">Loan Length</label><br>
+      <input type="radio" name="loan_length" value="5_years" />5 years<br>
+      <input type="radio" name="loan_length" value="15_years" />15 years<br>
+      <input type="radio" name="loan_length" value="30_years" />30 years<br><br>
+
+      <input type="checkbox" name="special_conditions" value="down_payment" />I have a down payment<br>
+      <input type="checkbox" name="special_conditions" value="out_of_state" />Out-of-state resident<br>
+      <input type="checkbox" name="special_conditions" value="married" />Married<br>
+      <input type="checkbox" name="special_conditions" value="co-signed" />Loan will be co-signed<br><br>
+
+
+      <textarea>Additional comments</textarea><br><br>
+
+      Applicant Email Address:  <input type="email" name="email" placeholder="Enter email" required /><br><br>
+
+      Applicant Telephone Nuber:  <input type="number" name="phone"/><br><br>
+
+      Applicant Linkedin URL:  <input type="url" name="linkedin" placeholder="Enter Linkedin URL" required /><br><br>
+      </form>
+  </div>
+</body>
+</html>
